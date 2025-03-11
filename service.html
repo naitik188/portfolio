@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer - Services</title>
+
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Services Section */
+        #services {
+            background-color: #000; /* Black background */
+            color: #00FF00; /* Green text */
+            padding: 60px;
+            text-align: center;
+        }
+
+        #services h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #00FF00; /* Green header */
+        }
+
+        .service-list {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap; /* Makes the service boxes wrap on smaller screens */
+        }
+
+        .service {
+            background-color: #333; /* Dark gray background for service boxes */
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 250px;
+            color: #00FF00; /* Green text */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 16px;
+        }
+
+        .service:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Full Stack Developer Services</h2>
+        <div class="service-list">
+            <div class="service">
+                <h3>Front-End Development</h3>
+                <p>Creating visually stunning and responsive user interfaces using modern technologies such as HTML, CSS, JavaScript, React, and Angular.</p>
+            </div>
+            <div class="service">
+                <h3>Back-End Development</h3>
+                <p>Building robust and scalable back-end systems using Node.js, Express, Python, Django, and other server-side technologies.</p>
+            </div>
+            <div class="service">
+                <h3>Database Design & Management</h3>
+                <p>Designing and managing databases with MySQL, PostgreSQL, MongoDB, and ensuring data integrity and efficiency in complex systems.</p>
+            </div>
+            <div class="service">
+                <h3>API Integration</h3>
+                <p>Integrating third-party APIs and building RESTful APIs to ensure seamless communication between front-end and back-end services.</p>
+            </div>
+            <div class="service">
+                <h3>DevOps & Deployment</h3>
+                <p>Deploying and maintaining web applications using cloud platforms like AWS, Heroku, and Docker, along with automating workflows.</p>
+            </div>
+            <div class="service">
+                <h3>Version Control & Collaboration</h3>
+                <p>Efficient use of Git for version control and collaboration in teams, ensuring smooth and organized code management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+       
+    </footer>
+
+</body>
+</html>
